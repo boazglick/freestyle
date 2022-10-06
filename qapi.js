@@ -44,6 +44,11 @@ export default {
 	"projectType": "gatsby",
 	"site": {
 		"styles": {},
-		"seo": {}
+		"seo": {
+			"title": "אתר מגניב שאתה חייב להכיר",
+			"description": "אוווא זה מדהים",
+			"sitemapFileType": "custom",
+			"robotsFileType": "custom"
+		}
 	}
 }

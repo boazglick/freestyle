@@ -46,9 +46,7 @@ export default {
 		"styles": {},
 		"seo": {
 			"title": "אתר מגניב שאתה חייב להכיר",
-			"description": "אוווא זה מדהים",
-			"sitemapFileType": "custom",
-			"robotsFileType": "custom"
+			"description": "אוווא זה "
 		}
 	}
 }

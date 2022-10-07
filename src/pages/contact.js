@@ -209,7 +209,7 @@ export default (() => {
 					<Formspree
 						errorMessage="Something went wrong"
 						completeText="Success"
-						endpoint="meqveqwr"
+						endpoint="mnqrvklb"
 						display="flex"
 						width="100%"
 					>

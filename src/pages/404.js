@@ -13,7 +13,7 @@ export default (() => {
 			<title>
 				אתר מגניב שאתה חייב להכיר
 			</title>
-			<meta name={"description"} content={"אוווא זה מדהים"} />
+			<meta name={"description"} content={"אוווא זה "} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
 		<Section padding="16px 0 16px 0" quarkly-title="Header" align-items="center" justify-content="center">

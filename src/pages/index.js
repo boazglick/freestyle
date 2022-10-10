@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Button, Section, Text, Box, Icon } from "@quarkly/widgets";
+import { Theme, Link, Image, Button, Section, Text, Input, Box, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Override, SocialMedia } from "@quarkly/components";
+import { Override, Formspree, SocialMedia } from "@quarkly/components";
 import * as Components from "components";
 import { MdMenu } from "react-icons/md";
 import { DiBootstrap, DiBingSmall, DiCssTricks, DiEnvato, DiGithubBadge } from "react-icons/di";
@@ -180,6 +180,46 @@ export default (() => {
 				Learn More
 			</Link>
 		</Section>
+		<Formspree
+			errorMessage="Something went wrong"
+			completeText="Success"
+			endpoint="mnqrvklb"
+			display="flex"
+			width="100%"
+		>
+			<Input
+				name="email"
+				placeholder="Email"
+				width="66.66%"
+				margin="0px 4px 10px 0px"
+				required
+				type="email"
+				md-width="100%"
+				margin-right="4px"
+				lg-width="100%"
+			/>
+			<Input
+				placeholder="Name"
+				width="66.66%"
+				margin="0px 4px 10px 0px"
+				type="text"
+				md-width="100%"
+				lg-width="100%"
+				name="name"
+			/>
+			<Input
+				margin="0px 4px 10px 0px"
+				type="tel"
+				md-width="100%"
+				lg-width="100%"
+				name="tel"
+				placeholder="Phone"
+				width="66.66%"
+			/>
+			<Button width="66.66%" lg-width="100%">
+				Submit
+			</Button>
+		</Formspree>
 		<Section
 			box-sizing="border-box"
 			lg-padding="50px 30px 50px 30px"

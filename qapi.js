@@ -3,9 +3,9 @@ export default {
 		"root": {
 			"name": "root",
 			"children": [
+				"633f0e12f45b7e00247a5c5c",
 				"633f0e12f45b7e00247a5c48",
-				"633f0e12f45b7e00247a5c4c",
-				"633f0e12f45b7e00247a5c5c"
+				"633f0e12f45b7e00247a5c4c"
 			],
 			"id": "root",
 			"pageUrl": "root"
